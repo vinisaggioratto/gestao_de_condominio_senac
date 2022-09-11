@@ -1,0 +1,52 @@
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.text-login {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-painel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 3px solid var(--text-color-menu);
+    border-radius: 8px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario button {
+    padding: 10px 80px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.formulario input {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    line-height: 25px;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.formulario label {
+    text-align: center;
+}
+
+.formulario input::placeholder {
+    text-align: center;
+}
